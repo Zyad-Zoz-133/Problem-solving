@@ -7,9 +7,11 @@ using namespace std;
 bool dfs(int S, int& destination, vector<vector<int>>& adj, vector<bool>& visited) {
     if (S == destination)return true;
     visited[S]= true;
-    for (int neigbor : adj[S]) {
-        if(!visited[S])
-            if(dfs(neigbor,destination,adj,visited))return true;
+    for (int neighbor : adj[S])
+    {
+        if (!visited[neighbor])
+            if (dfs(neighbor, destination, adj, visited))
+                return true;
     }
     return  false;
 }
