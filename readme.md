@@ -17,7 +17,11 @@ This repository contains my solutions to programming problems as I practice algo
 Below is an automatically generated index of the problems I've solved, organized by folder with links to the original problem statements.
 
 <!-- PROBLEMS-INDEX-START -->
-# Problem Solving Index
+## Problem Solving Index
+
+**Total problem links found: 13**
+
+### Primary School
 
 **Total problem links found: 8**
 
@@ -31,5 +35,17 @@ Below is an automatically generated index of the problems I've solved, organized
 | `LO2` | `LO2/find all subset.cpp` | [Open Problem](https://leetcode.com/problems/subsets/description/) |
 | `LO2` | `LO2/search Insert Position.cpp` | [Open Problem](https://leetcode.com/problems/search-insert-position/description/?envType=problem-list-v2&envId=binary-search) |
 | `LO2` | `LO2/subsit.cpp` | [Open Problem](https://leetcode.com/problems/subsets/description/) |
+
+### Self Learning
+
+**Total problem links found: 5**
+
+| Folder | File | Problem Link |
+|---|---|---|
+| `self learning` | `self learning/beautifull matrix.cpp` | [Open Problem](https://codeforces.com/problemset/problem/263) |
+| `self learning` | `self learning/E - Petya and String.cpp` | [Open Problem](https://codeforces.com/problemset/problem/112/A) |
+| `self learning` | `self learning/team.cpp` | [Open Problem](https://codeforces.com/problemset/problem/231/A) |
+| `self learning` | `self learning/Watermelon.cpp` | [Open Problem](https://codeforces.com/problemset/problem/4/A) |
+| `self learning` | `self learning/way to long word.cpp` | [Open Problem](https://codeforces.com/problemset/problem/71/A) |
 
 <!-- PROBLEMS-INDEX-END -->
