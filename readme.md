@@ -54,3 +54,5 @@ Below is an automatically generated index of the problems I've solved, organized
 | `self learning` | `self learning/way to long word.cpp` | [Open Problem](https://codeforces.com/problemset/problem/71/A) |
 
 <!-- PROBLEMS-INDEX-END -->
+
+<!-- fager ya basha😍😍(Yossef Zaki😉) -->
