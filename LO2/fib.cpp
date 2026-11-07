@@ -29,9 +29,6 @@ long long fibMemo(int n, vector <long long>& memo){
 
 long long fibTabo(int n, vector<long long> &tabo)
 {
-	if (n <= 1)
-		return n;
-
 	tabo[0]=0;
 	tabo[1]=1;
 
