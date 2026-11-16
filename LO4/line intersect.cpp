@@ -1,11 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// l1p1 = line 1 point 1 
-// l1p2 = line 1 point 2
-// l2p1 = line 2 point 1
-// l2p2 = line 2 point 2
-
 void p(double m1,double m2,double c1,double c2){
     if(m1==m2){
         // check if the two lines are pararel
