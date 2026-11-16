@@ -6,17 +6,37 @@ using namespace std;
 // l2p1 = line 2 point 1
 // l2p2 = line 2 point 2
 
-void p(pair<double,double> l1p1,pair<double,double>l1p2,pair<double,double> l2p1,pair<double,double>l2p2){
-    // get the slope of the first line
-    double ml1 = (l1p1.second - l1p2.second )/(l1p1.first - l1p2.first );
-    // get the slope of the second line
-    double ml2 = (l2p1.second - l2p2.second )/(l2p1.first - l2p2.first );
+void p(double m1,double m2,double c1,double c2){
+    if(m1==m2){
+        // check if the two lines are pararel
+        if(c1!=c2){
+            cout << "The two lines are pararel";
+        }
+        // the line is over each other 
+        else{
+            cout << "the lines are over each other";
+        }
+        return ;
+    }
 
-    // get the intersect point for the first line with the Y-axis
-    double cl1 = l1p1.second - l1p1.first*ml1 ;
-    // get the intersect point for the second line with the Y-axis
-    double cl2 = l2p1.second - l2p1.first*ml1 ;
+    // check if the two lines Perpendicular 
+    if(m1*m2== -1){
+        cout << "the two lines are Perpendicular to each other";
+    }
 
-    
+
+    //calculate the intersect point of the two lines
+    double x = (c1-c2)/(m1-m2);
+    double y = m1*x+c1;
+
+    cout << "the intersect point of the two lines is : ("<< x << ","<<y<<")";
 
 }
+
+int main(){
+    double m1,m2,c1,c2;
+    cin >> m1>>m2>>c1>> c2;
+
+    p(m1,m2,c1,c2);
+}
+
