@@ -13,13 +13,13 @@ void p(double m, double c, double x, double y)
     if (y == res)
         cout << "The point intersects with the line";
 
-    // Check if the point is above the line
+    // Check if the point is under the line
     else if (y < res)
-        cout << "The point is above the line";
-
-    // Otherwise, the point is below the line
-    else
         cout << "The point is under the line";
+
+    // Otherwise, the point is above the line
+    else
+        cout << "The point is above the line";
 }
 
 int main()
