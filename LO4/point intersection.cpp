@@ -2,25 +2,39 @@
 
 using namespace std;
 
-void p(double m , double c , double x ,double y){
+// Check the position of a point relative to a line
+void p(double m, double c, double x, double y)
+{
 
-    double res = x*m+c;
+    // Calculate the y-coordinate of the line at the given x
+    double res = x * m + c;
 
-    if(y==res)
-        cout << "the point intersect with the line";
-    else if(y<res)
-        cout << "the point above the line";
+    // Check if the point lies exactly on the line
+    if (y == res)
+        cout << "The point intersects with the line";
+
+    // Check if the point is under the line
+    else if (y < res)
+        cout << "The point is under the line";
+
+    // Otherwise, the point is above the line
     else
-        cout << "the point is under the line";
-
+        cout << "The point is above the line";
 }
 
-int main (){
-    p(3,2,1,5);
+int main()
+{
 
-    double m,c,x,y;
-    cout << "Enter the variables (m,c,x,y):  ";
+    // Test the function with predefined values
+    p(3, 2, 1, 5);
+
+    // Declare variables to store user input
+    double m, c, x, y;
+
+    // Get the line and point coordinates from the user
+    cout << "Enter the variables (m, c, x, y):  ";
     cin >> m >> c >> x >> y;
-    p(m,c,x,y);
 
+    // Check the position of the entered point
+    p(m, c, x, y);
 }

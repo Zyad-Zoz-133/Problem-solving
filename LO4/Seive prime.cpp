@@ -38,5 +38,5 @@ void isprime (int n){
 
 int main (){
       int n = 20;
-      isprime(n)       
+      isprime(n);     
 }
